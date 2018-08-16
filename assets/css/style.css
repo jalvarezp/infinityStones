@@ -1,0 +1,37 @@
+
+div.header{
+	background-color: #9435f3;
+	text-align: center
+}
+.header{
+	margin: 40px;
+	color: white
+}
+body{
+	background-image: url("../images/background.png")
+}
+div.header, div.instructions{
+	width: 50%;
+}
+.instructions{
+	margin: 40px;
+	color: white
+}
+.target{
+	margin: 40px;
+	width: 25%;
+	color: white
+}
+.wins{
+	margin: 40px;
+	width: 25%;
+	color: white
+}
+.row{
+	margin: 10px;
+	width: 100%;
+}	
+.stone{
+	margin: 30px;
+}
+

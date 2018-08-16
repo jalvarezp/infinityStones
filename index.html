@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Infinity Stones</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>Infinity Stones</h2>
+    </div>
+
+    <div class="instructions">
+        <h3>Instructions</h3>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are six stones below. By clicking on a stone you will add a specific amount of points to your total score.
+        </p>
+        <p>You win the game by matching your total score to the random number. You lost the game if your total score goes above
+            the random number.</p>
+        <p>The value of each stone is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each stone.</p>
+    </div>
+
+    <div class="target">
+        <h3>Target:
+            <span id="target"></span>
+            <br> Score:
+            <span id="score"></span>
+        </h3>
+    </div>
+
+    <div class="wins">
+        <h3>Wins:
+            <span id="wins"></span>
+            </br>
+            Losses:
+            <span id="losses"></span>
+        </h3>
+    </div>
+
+    <div class="row">
+        <div id="stone1" class="col- stone">
+            <img class="image1" src="assets/images/Stone 1.png" alt="image1">
+        </div>
+        <div id="stone2" class="col- stone">
+            <img class="image2" src="assets/images/Stone 2.png" alt="image2">
+        </div>
+        <div id="stone3" class="col- stone">
+            <img class="image3" src="assets/images/Stone 3.png" alt="image3">
+        </div>
+        <div id="stone4" class="col- stone">
+            <img class="image4" src="assets/images/Stone 4.png" alt="image4">
+        </div>
+        <div id="stone5" class="col- stone">
+            <img class="image5" src="assets/images/Stone 5.png" alt="image5">
+        </div>
+        <div id="stone6" class="col- stone">
+            <img class="image6" src="assets/images/Stone 6.png" alt="image6">
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
